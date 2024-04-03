@@ -1,0 +1,38 @@
+.DS_Store
+*/.DS_Store
+.idea/
+.project
+.classpath
+.mvn/
+.settings/
+mvnw
+docker-compose.yml
+pom-dev-rifat.xml
+mvnw.cmd
+bin/
+target/
+logs/
+inforeach.iml
+*.iml
+/logs/*
+*.log
+dist/
+/out/
+/.vscode/
+/brms/target/
+/modelAndRepository/target/
+/.idea/
+
+# Ignore personal profiles
+/src/main/resources/application-dev-*.properties
+
+# frontend files
+/node_modules
+
+# Ignore personal dependencies
+pom-dev-ornob.xml
+
+#Ignore personal configuration for indentation
+.editorconfig
+/src/main/java/com/dsi/rjsc/stub/*
+/src/main/java/META-INF/sun-jaxb.episode
